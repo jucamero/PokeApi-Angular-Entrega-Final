@@ -1,0 +1,27 @@
+mat-toolbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 16px; /* Ajusta el espaciado a los lados del toolbar si es necesario */
+    height: 80px; /* Ajusta la altura del toolbar si es necesario */
+    background-color: #000; /* Color de fondo negro */
+}
+
+.app-logo {
+    display: flex;
+    align-items: center;
+    font-size: 24px; /* Tamaño de la fuente para el texto */
+}
+
+.pokemon-text {
+    font-size: 36px; /* Tamaño de la fuente para el texto "Pokemon" */
+    font-weight: bold; /* Hacer el texto más prominente */
+    margin: 0 12px; /* Espaciado entre el texto y los íconos */
+    color: #fff; /* Color del texto blanco para contrastar con el fondo negro */
+}
+
+.inline-icon {
+    width: 48px; /* Tamaño del ícono */
+    height: 48px; /* Tamaño del ícono */
+    margin: 0 12px; /* Espaciado entre los íconos y el texto */
+}

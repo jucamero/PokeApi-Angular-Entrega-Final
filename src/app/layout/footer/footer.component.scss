@@ -1,0 +1,46 @@
+/* Estilos para el pie de página */
+.footer {
+    padding: 12px;
+    font-size: 12px;
+    background: #000000; /* Fondo negro */
+    color: #ffffff; /* Color del texto blanco */
+}
+
+.footer-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Espaciado entre los elementos */
+    flex-wrap: wrap;
+    gap: 20px; /* Espaciado entre los elementos */
+}
+
+.footer-version {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centra el contenido horizontalmente */
+    flex: 1;
+}
+
+.footer-copyright {
+    flex: 1;
+    text-align: center;
+    margin-top: 16px; /* Espaciado en la parte superior */
+}
+
+.footer a {
+    font-size: 16px;
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Estilos específicos para el ícono de GitHub */
+.github-icon {
+    width: 32px; /* Tamaño del ícono */
+    height: 32px; /* Tamaño del ícono */
+    border-radius: 50%; /* Hace que la imagen sea circular */
+    transition: opacity 0.3s; /* Transición suave para el cambio de opacidad */
+}
+
+.footer-version a:hover .github-icon {
+    opacity: 0.7; /* Cambiar opacidad del ícono al pasar el ratón */
+}
